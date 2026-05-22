@@ -1,0 +1,6 @@
+projectKey=devops-engineer-from-scratch-project-49
+serverUrl=http://localhost:9000
+serverVersion=26.5.0.122743
+dashboardUrl=http://localhost:9000/dashboard?id=devops-engineer-from-scratch-project-49
+ceTaskId=6c350558-93bc-4658-84da-e8060699b310
+ceTaskUrl=http://localhost:9000/api/ce/task?id=6c350558-93bc-4658-84da-e8060699b310
