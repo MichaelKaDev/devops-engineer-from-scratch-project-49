@@ -22,3 +22,15 @@
 <p align="center">
   <img src="media/demo2.gif" alt="Демонстрация работы скрипта" width="700">
 </p>
+
+## Демонстрация работы brain_gcd
+
+<p align="center">
+  <img src="media/demo3.gif" alt="Демонстрация работы скрипта" width="700">
+</p>
+
+## Демонстрация работы brain_progression
+
+<p align="center">
+  <img src="media/demo4.gif" alt="Демонстрация работы скрипта" width="700">
+</p>
