@@ -1,38 +1,12 @@
-import random
-
 import prompt
 
+from brain_games.utils.math import (
+    get_random_number,
+    get_random_operation,
+    is_even,
+)
 
-def welcome_user():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
-
-
-def get_random_number(f_board=-50, s_board=50):
-    number = random.randint(f_board, s_board)
-    return number
-
-
-def get_random_operation():
-    return random.choice(['+', '-', '*'])
-
-
-def is_even(number: int) -> bool:
-    return number % 2 == 0
-
-
-def check_answer(name, str_answer, right_answer):
-    if str_answer != right_answer:
-        print(f"'{str_answer}' is wrong answer ;(. Correct answer "
-            f"was '{right_answer}'."
-        )
-        print(f"Let's try again, {name}!")
-        return False
-    else:
-        print("Correct!")
-        return True
+from brain_games.utils.logic import check_answer
 
 
 def calc_game_round(name: str, target_score=2):

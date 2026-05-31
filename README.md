@@ -11,8 +11,14 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MichaelKaDev_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MichaelKaDev_devops-engineer-from-scratch-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=MichaelKaDev_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=MichaelKaDev_devops-engineer-from-scratch-project-49)
 
-## Демонстрация работы
+## Демонстрация работы brain_even
 
 <p align="center">
   <img src="media/demo.gif" alt="Демонстрация работы скрипта" width="700">
+</p>
+
+## Демонстрация работы brain_calc
+
+<p align="center">
+  <img src="media/demo2.gif" alt="Демонстрация работы скрипта" width="700">
 </p>
