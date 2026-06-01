@@ -6,6 +6,7 @@ from brain_games.utils.math import (
     get_random_operation,
     get_random_progression,
     is_even,
+    is_prime,
 )
 
 
@@ -73,5 +74,9 @@ def progression_game_round(name: str):
     return check_answer(name, str_answer, right_answer)
     
 
-
-    
+def prime_game_round(name: str):
+    number = get_random_number(0, 10000)
+    print(f'Question: {number}')
+    right_answer = "yes" if is_prime(number) else "no"
+    str_answer = prompt.string('Your answer: ')
+    return check_answer(name, str_answer, right_answer)

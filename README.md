@@ -34,3 +34,9 @@
 <p align="center">
   <img src="media/demo4.gif" alt="Демонстрация работы скрипта" width="700">
 </p>
+
+## Демонстрация работы brain_prime
+
+<p align="center">
+  <img src="media/demo5.gif" alt="Демонстрация работы скрипта" width="700">
+</p>
